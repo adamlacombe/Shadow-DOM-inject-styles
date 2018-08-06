@@ -1,6 +1,6 @@
 {
   "name": "shadow-dom-inject-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper function to easily modify shadow dom css.",
   "module": "./dist/index.js",
   "main": "./dist/index.js",
