@@ -1,0 +1,32 @@
+{
+  "name": "shadow-dom-inject-styles",
+  "version": "1.0.0",
+  "description": "A helper function to easily modify shadow dom css.",
+  "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run rollup && npm run uglify",
+    "rollup": "rollup -c",
+    "uglify": "uglifyjs --compress --mangle -o ./dist/index.js -- ./dist/index.js",
+    "lint": "tslint --project tsconfig.json"
+  },
+  "author": "Adam LaCombe",
+  "license": "MIT",
+  "devDependencies": {
+    "@studio/changes": "^1.5.2",
+    "@types/jasmine": "^2.8.8",
+    "@types/node": "^8.5.1",
+    "rollup": "^0.56.2",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.2.1",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "tcs": "^10.0.0",
+    "tslint": "^5.10.0",
+    "tslint-ionic-rules": "0.0.14",
+    "typescript": "2.9.1",
+    "uglify-es": "^3.3.9"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/utils"
+    ],
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
