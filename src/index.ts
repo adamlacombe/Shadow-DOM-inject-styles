@@ -10,7 +10,7 @@ export function injectStyles(
     if (element.innerHTML === styles) {
       styleAlreadyAdded = true;
     }
-    if (currentStyleTags.length - 1 === index && styleAlreadyAdded == false) {
+    if (currentStyleTags.length - 1 === index && styleAlreadyAdded === false) {
       const newStyleTag = document.createElement('style');
       newStyleTag.innerHTML = styles;
       root.insertBefore(newStyleTag, root.querySelector(insertBeforeSelector));

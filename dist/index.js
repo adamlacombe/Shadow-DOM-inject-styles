@@ -1,1 +1,1 @@
-function injectStyles(e,t,r){let l=e.shadowRoot,n=!1,o=Array.from(l.querySelectorAll("style"));o.forEach((e,c)=>{if(e.innerHTML==r&&(n=!0),o.length-1==c&&0==n){let e=document.createElement("style");e.innerHTML=r,l.insertBefore(e,l.querySelector(t))}})}export{injectStyles};
+function injectStyles(e,t,n){const o=e.shadowRoot;let r=!1;const c=Array.from(o.querySelectorAll("style"));c.forEach((e,l)=>{if(e.innerHTML===n&&(r=!0),c.length-1===l&&!1===r){const e=document.createElement("style");e.innerHTML=n,o.insertBefore(e,o.querySelector(t))}})}export{injectStyles};
