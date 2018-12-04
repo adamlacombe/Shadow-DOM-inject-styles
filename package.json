@@ -1,6 +1,6 @@
 {
   "name": "shadow-dom-inject-styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper function to easily modify shadow dom css.",
   "module": "./dist/index.js",
   "main": "./dist/index.js",
@@ -13,6 +13,18 @@
   },
   "author": "Adam LaCombe",
   "license": "MIT",
+  "keywords": [
+    "shadow-dom",
+    "css",
+    "styles",
+    "ionic",
+    "stencil",
+    "stenciljs",
+    "angular",
+    "vue",
+    "typescript",
+    "javascript"
+  ],
   "devDependencies": {
     "@studio/changes": "^1.5.2",
     "@types/jasmine": "^2.8.8",
