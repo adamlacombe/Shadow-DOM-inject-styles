@@ -1,1 +1,0 @@
-function injectStyles(e,t,n){const o=e.shadowRoot;let r=!1;const c=Array.from(o.querySelectorAll("style"));c.forEach((e,l)=>{if(e.innerHTML===n&&(r=!0),c.length-1===l&&!1===r){const e=document.createElement("style");e.innerHTML=n,o.insertBefore(e,o.querySelector(t))}})}export{injectStyles};
